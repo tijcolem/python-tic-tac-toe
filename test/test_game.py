@@ -37,6 +37,10 @@ class TestGame(unittest.TestCase):
     self.assertIs(type(self.game.cells[1]), list)
 
   def testCheckArrayTrue(self):
+    print "Running testCheckArrayTrue(self)"
+    print "self.assertTrue(self.game._check_array(['X','X','X'], 'X'))"
+    print self.assertTrue(self.game._check_array(['X','X','X'], 'X'))
+
     self.assertTrue(self.game._check_array(['X','X','X'], 'X'))
 
   def testCheckArrayFalse(self):
