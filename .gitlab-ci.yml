@@ -1,5 +1,5 @@
 test:
   script:
-    - sudo apt-get install -y python-dev
+#    - sudo apt-get install -y python-dev
     - python run_tests.py
   #
