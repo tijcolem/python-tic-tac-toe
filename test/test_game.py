@@ -66,7 +66,7 @@ class TestGame(unittest.TestCase):
     self.assertTrue(self.game.check_winner('X'))
 
   def testCheckWinnerWonDiag2(self):
-    elf.game.make_move(3, 'X')
+    self.game.make_move(3, 'X')
     self.game.make_move(5, 'X')
     self.game.make_move(7, 'X')
     self.assertTrue(self.game.check_winner('X'))
