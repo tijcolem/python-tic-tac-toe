@@ -1,8 +1,13 @@
+
+**Tim Coleman***
+
+*** This is modified version to show 
+Gitlab-CE and Gitlab-CI testing features ***
+
 ===========
 Tic-Tac-Toe
 ===========
 A command-line game of tic-tac-toe written in python 2.7.
-
 ===============
 Getting Started
 ===============
@@ -11,3 +16,6 @@ Play the game:
 
 Run tests:
   $ python run_tests.py
+  
+  
+  
